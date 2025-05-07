@@ -6,11 +6,15 @@ use App\Http\Controllers\FormController;
 
 
 Route::get('/', function () {
-    return view('home');
+    return view('page.home');
 });
 Route::get('/register', function () {
-    return view('register');
+    return view('page.register');
 });
 Route::get('/welcome', function () {
-    return view('welcome');
+    return view('page.welcome');
+});
+
+Route::get('/master', function () {
+    return view('layout.master');
 });

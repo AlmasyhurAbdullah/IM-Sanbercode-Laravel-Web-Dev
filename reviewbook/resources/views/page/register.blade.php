@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buat form baru</title>
-</head>
-<body>
+@extends('layout.master')
+@section('title')
+    Register
+@endsection
+
+@section('content')
+
     <h1>Buat Account Baru!</h1>
     <h2>Sign Up Form</h2>
 
@@ -37,8 +36,5 @@
         <textarea rows="5"></textarea><br><br>
 
         <a href="welcome">Sign Up</a>
-
-
     </form>
-</body>
-</html>
+@endsection
